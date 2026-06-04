@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  TestGitHub
 //
 //  Created by Juan Fausta Pringadi on 04/06/26.
@@ -7,19 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Hello! Ini Juan!")
+            Text("Home Screen")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }
